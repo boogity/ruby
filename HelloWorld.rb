@@ -2,4 +2,4 @@
 
 #Hello world ruby program
 
-puts "Hello World!"
+puts "Hello #{ARGV.first}!"
