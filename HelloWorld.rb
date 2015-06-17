@@ -1,5 +1,5 @@
 #!/usr/bin/ruby
 
 #Hello world ruby program
-
-puts "Hello #{ARGV.first}!"
+name = ARGV.first || "world"
+puts "Hello #{name}!"
